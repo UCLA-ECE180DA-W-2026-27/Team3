@@ -1,0 +1,9 @@
+This is the local knowledge base for the voice assistant.
+
+Use this file as the source of truth for questions about this project.
+Add any project notes, rules, or facts here, one paragraph per idea.
+
+Example:
+- The assistant should answer questions about this project using the information in this file.
+- If the answer is not here, say that it is not in the provided context.
+- Keep responses concise and helpful.
