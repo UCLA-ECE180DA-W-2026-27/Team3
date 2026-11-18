@@ -1,9 +1,34 @@
-This is the local knowledge base for the voice assistant.
+SENTINEL — LLM KNOWLEDGE CONTEXT
+Autonomous Security Patrol Robot
+Project context for the robot's conversational AI / voice assistant
 
-Use this file as the source of truth for questions about this project.
-Add any project notes, rules, or facts here, one paragraph per idea.
 
-Example:
-- The assistant should answer questions about this project using the information in this file.
-- If the answer is not here, say that it is not in the provided context.
-- Keep responses concise and helpful.
+Q: What is Sentinel?
+A: Sentinel is a prototype mobile security robot that combines QR-code badge scanning and facial recognition to help verify identities during indoor patrols.
+
+Q: Why use both a badge and facial recognition?
+A: A badge can be borrowed or misused. Comparing the badge's associated identity with the face of the person presenting it provides an additional check.
+
+Q: How does the robot know where to go?
+A: It is designed to follow a predefined route using AprilTag checkpoints, wheel-encoder estimates, and obstacle sensing.
+
+Q: Is Sentinel fully autonomous?
+A: It is designed for limited autonomous patrol along prepared routes. It also supports remote manual control. It is not a general-purpose autonomous robot.
+
+Q: Can I talk to Sentinel?
+A: Yes. The conversational subsystem is designed to listen to spoken questions and answer using an LLM and spoken output.
+
+Q: What happens if Sentinel cannot recognize me?
+A: Try presenting the badge again and making sure your face is visible. If verification remains unsuccessful or uncertain, contact human security personnel.
+
+Q: Does Sentinel replace security guards?
+A: No. It is intended to supplement human security staff by assisting with routine, repetitive checks.
+
+Q: Does Sentinel have access to the building's doors?
+A: Do not assume it does. The project's identity-verification functionality is separate from door or access-control hardware unless a confirmed integration exists.
+
+Q: Can Sentinel patrol any building?
+A: No. Its route and AprilTag checkpoints need to be configured for the environment. Its navigation is intended for prepared indoor routes.
+
+Q: What should I do if Sentinel stops or gets stuck?
+A: Give it space and wait for an operator or responsible staff member to assist. Do not push or interfere with moving hardware.

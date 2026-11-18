@@ -1,4 +1,5 @@
 pyaudio
 openai-whisper
-google-generativeai
+google-genai
 pyttsx3
+python-dotenv
